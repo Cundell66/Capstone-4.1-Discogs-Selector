@@ -11,7 +11,7 @@
 - Axios
 - EJS (Embedded JavaScript) templating engine
  ## Getting Started
- 1. Clone the repository: `git clone `
+ 1. Clone the repository: `git clone https://github.com/Cundell66/Capstone-4.1-Discogs-Selector.git`
 2. Install the dependencies: `npm install`
 3. Get your Discogs API token by signing up for a free Discogs account at discogs.com. Then, create a `discogs.js` file in the root directory and export your token, username and folder ID. 
 Example:
