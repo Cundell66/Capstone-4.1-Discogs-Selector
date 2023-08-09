@@ -68,6 +68,6 @@ app.post("/", async (req, res) => {
   }
 });
 
-app.listen(port, () => {
+app.listen(PORT, () => {
   console.log(`Listening on port ${PORT}`);
 });
