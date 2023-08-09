@@ -7,7 +7,7 @@ import { userName, discogsToken, folderID } from "./discogs.js";
 
 // initialise app on port 3000
 const app = express();
-const port = 3000;
+const PORT = process.env.PORT || 3030;
 
 app.use(express.static("public"));
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -69,5 +69,5 @@ app.post("/", async (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`Listening on port ${port}`);
+  console.log(`Listening on port ${PORT}`);
 });
